@@ -1,3 +1,5 @@
+import NotificationButton from "./components/NotificationButton"
+
 function App() {
   // const [count, setCount] = useState(0)
 
@@ -25,7 +27,12 @@ function App() {
   //     </p>
   //   </div>
   // )
-  return (<h1>Olá mundo!</h1>);
+  return (
+    <>
+      <h1>Olá mundo!</h1>
+      <NotificationButton />
+    </>
+  )
 }
 
 export default App
